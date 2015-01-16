@@ -3,7 +3,7 @@ Each user can have an individual account on which he/she can see the latest noti
 
 
 
-Made by Gurvinder Singh,Deepak Singh, Prashant Arya
+Made by Gurvinder Singh
 
 
    
