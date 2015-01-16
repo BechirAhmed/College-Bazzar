@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.college_bazzar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name="com.example.college_bazzar.Slide1Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.Slide2Activity"
+            android:label="@string/title_activity_slide2" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.Slide3Activity"
+            android:label="@string/title_activity_slide3" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.Slide4Activity"
+            android:label="@string/title_activity_slide4" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.AfterLogActivity"
+            android:label="@string/title_activity_after_log" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.RegisterTimeActivity"
+            android:label="@string/title_activity_register_time" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.UserProfileActivity"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.GetDetailsActivity"
+            android:label="@string/title_activity_get_details" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.MainQueryActivity"
+            android:label="@string/title_activity_main_query" >
+        </activity>
+       
+        <activity
+            android:name="com.example.college_bazzar.EmailActivity"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name="com.example.college_bazzar.PostEnlarge2Activity"
+            android:label="@string/title_activity_post_enlarge2" >
+        </activity>
+    </application>
+
+</manifest>

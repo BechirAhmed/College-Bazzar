@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="RED">#FF0000</drawable>
+    <drawable name="BLUE">#0000FF</drawable>
+    <drawable name="GREEN">#00FF00</drawable>
+    <drawable name="BLACK">#000000</drawable>
+    <drawable name="WHITE">#FFFFFF</drawable>
+    <drawable name="THEME">#2391CC</drawable>
+    <drawable name="THEME_dark">#1F5DB5</drawable>
+    <drawable name="THEME_light">#1D4680</drawable>
+    <drawable name="THEME_2">#6C87F5</drawable>
+    
+</resources>

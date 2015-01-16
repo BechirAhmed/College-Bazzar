@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+     <item
+        android:id="@+id/re_fresh"
+        yourapp:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_refresh"
+         android:title="Refresh">
+        <!--  vskdskf-->
+       
+       
+    </item>
+    
+    <item
+        android:id="@+id/re_help"
+        yourapp:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_help"
+        android:title="Help">
+    </item>
+    <!--  -->
+    
+    <item
+        android:id="@+id/re_about"
+        yourapp:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_about" 
+        android:title="About">
+    </item>
+		<!-- -->
+		
+		
+
+    
+   
+		
+		
+ 
+</menu>

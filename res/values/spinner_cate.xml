@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_cate">
+    <item>User</item>
+    <item>College</item>
+    <item >City</item>
+    <item >Price</item>
+     </string-array>
+</resources>
